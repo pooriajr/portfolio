@@ -1,0 +1,63 @@
+* {
+  box-sizing: box;
+}
+
+body { 
+  background: black;
+  padding: 1rem 2.2rem;
+  color: white;
+  font-family: sans-serif;
+  max-width: 100%;
+}
+
+img {
+  display: inline-block;
+  border: 1px solid #555;
+  margin: 2rem 2rem 0rem 0rem;
+  max-width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p, pre {
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+
+img {
+  max-height: 600px;
+}
+
+.projects {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.project {
+  font-size: 1.2rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.4rem;
+}
+
+.project img {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.project span {
+}
+
+.project em {
+  display: block;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
