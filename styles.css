@@ -2,7 +2,7 @@
   box-sizing: box;
 }
 
-body { 
+body {
   background: black;
   padding: 1rem 2.2rem;
   color: white;
@@ -10,7 +10,9 @@ body {
   max-width: 100%;
 }
 
-img, iframe {
+img,
+video,
+iframe {
   display: inline-block;
   border: 1px solid #555;
   margin: 2rem 2rem 0rem 0rem;
@@ -23,7 +25,8 @@ a {
   text-decoration: none;
 }
 
-p, pre {
+p,
+pre {
   line-height: 1.4rem;
   font-size: 1rem;
 }
@@ -49,12 +52,10 @@ p, pre {
   max-height: 200px;
 }
 
-.project span {
-}
+.project span {}
 
 .project em {
   display: block;
   color: #aaa;
   font-size: 0.9rem;
 }
-
