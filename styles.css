@@ -25,6 +25,12 @@ a {
   text-decoration: none;
 }
 
+p a {
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
 p,
 pre {
   line-height: 1.4rem;
