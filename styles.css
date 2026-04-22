@@ -20,6 +20,21 @@ iframe {
   max-height: 600px;
 }
 
+figure {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
 a {
   color: white;
   text-decoration: none;
