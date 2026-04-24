@@ -4,10 +4,16 @@
 
 body {
   background: black;
-  padding: 1rem 2.2rem;
+  padding: 0.3rem 0.7rem;
   color: white;
   font-family: sans-serif;
   max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  body {
+    padding: 2.2rem 3.2rem;
+  }
 }
 
 img,
@@ -29,7 +35,7 @@ figure {
 figcaption {
   position: absolute;
   bottom: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 0.5rem;
   width: 100%;
   text-align: center;
